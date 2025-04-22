@@ -5,9 +5,9 @@ import { Input } from "@/components/ui/input"
 export default function Home() {
   return (
   <div>
-    <div>
+    <div className="p-4 ">
      
-     <Input  placeholder="Search Products"/>
+     <Input  placeholder="Search Products" className="border-1"/>
     </div>
   </div>
   )
